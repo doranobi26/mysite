@@ -1,0 +1,440 @@
+*{  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+	height: 70px;
+	width: 1024px;
+	background-color: #ec715f;
+}
+
+.logo{
+	display: inline-block;
+}
+
+.top{
+	height: 70px;
+	width: 1024px;
+}
+
+.doraemon{
+	width: 150px;
+}
+
+
+.menu{
+	display :inline-block;
+	font-size: 16px;
+	color: #fafafa;
+	line-height: 70px;
+}
+
+.menu:nth-child(1){
+	margin-left: 600px;
+}
+
+.menu:nth-child(2){
+	margin-left: 60px;
+}
+
+.menu:nth-child(3){
+	margin-left: 60px;
+}
+
+.menu:nth-child(4){
+	margin-left: 60px;
+	margin-right: 30px;
+}
+
+.top-background{
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: bottom;
+	height: 650px;
+	width: 100%;
+}
+
+.top-title{
+	color: #fafafa;
+	font-size: 64px;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.mini-top-title{
+	color: #fafafa;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.portfolio-content{
+	width: 100%;
+	background-color: #eceff1;
+	margin: 0 auto;
+}
+
+.area1{
+	width: 920px;
+}
+
+.title-a{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+	border-bottom: 3px, solid #ec715f;
+}
+
+.a{
+	text-align: center;
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+.b{
+	text-align: center;
+	font-size: 16px;
+}
+
+.c{
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+
+.box{
+	height: 250px;
+	width: 300px;
+	background-size: cover;
+	background-position: bottom;
+	float: left;
+}
+
+.as123{
+	width: 920px;
+	margin: 0 auto;
+}
+
+.box:nth-child(1){
+	background-image: url(img/sketch.jpg);
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.box:nth-child(2){
+	background-image: url(img/talk.jpg);
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.box:nth-child(3){
+	background-image: url(img/webcamp-mother.png);
+	margin-bottom: 10px;
+}
+
+.box:nth-child(4){
+	background-image: url(img/webcamp.png);
+	margin-right: 10px;
+	margin-bottom: 90px;
+}
+
+.box:nth-child(5){
+	background-image: url(img/websuku.png);
+	margin-right: 10px;
+	margin-bottom: 90px;
+}
+
+.box:nth-child(6){
+	background-image: url(img/write.jpg);
+	margin-bottom: 90px;
+
+}
+
+.feature-content{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.area2{
+	width: 980px;
+}
+
+.title-b{
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+	border-bottom: 3px solid #ec715f;
+	text-align: center;
+}
+
+.d{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 16px
+	color: #000000;
+}
+
+.e{
+	text-align: center;
+	font-size: 16px
+	color: #000000;
+}
+
+.f{
+	text-align: center;
+	font-size: 16px
+	color: #000000;
+	padding-bottom: 30px;
+}
+
+.abcde{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.first{
+	float: left;
+	padding-right: 10px;
+	width: 320px;
+	text-align: center;
+}
+
+.asd{
+	font-size: 60px;
+	text-align: center;
+}
+
+.second{
+	float: left;
+	padding-right: 10px;
+	width: 320px;
+	text-align: center;
+}
+
+.third{
+	float: left;
+	width: 320px;
+	text-align: center;
+}
+
+.strength-1{
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+
+.strength-2{
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+
+.strength-3{
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+
+.title3{
+	font-size: 32px;
+	text-align: center;
+	color: #000000;
+	padding-top: 90px;
+	border-bottom: 3px solid #ec715f;
+}
+
+.aa{
+	padding-bottom: 90px;
+}
+
+.profile-content{
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #eceff1;
+	padding-bottom: 90px;
+}
+
+.area-s{
+	width: 1024px;
+}
+
+.g{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+.h{
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+.i{
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+
+.block{
+	width: 512px;
+	display: inline-block;
+}
+
+.empty{
+	width: 512px;
+}
+
+.man{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.picture-area{
+	float: left;
+	width: 512px;
+}
+
+
+
+.mynames{
+	float: left;
+	width: 512px;
+}
+
+.block{
+	display: inline-block;
+}
+
+.myname{
+	padding-top: 30px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.name-sentance{
+	font-size: 16px;
+	color: #000000;
+}
+
+
+.myskill{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.html-sentance{
+	font-size: 16px;
+	color: #000000;
+}
+
+.mai46{
+	width: 1024px;
+}
+
+.contact-content{
+	width: 800px;
+}
+
+.title-26{
+	text-align: center;
+	font-size: 32px;
+	padding-top: 90px;
+	border-bottom: 3px solid #ec715f;
+}
+
+.de{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+.ee{
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+.fe{
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+.sns-title{
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.mail-sns{
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+
+.mail-space{
+	display: inline-block;
+}
+
+.mail-title{
+	font-size: 20px;
+	width: 400px;
+	padding-bottom: 5px;
+}
+
+.tel-title{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.meado{
+	padding-bottom: 20px;
+}
+
+.sns-space{
+	display: inline-block;
+	width: 400px;
+}
+
+.osi{
+	font-size: 50px;
+	display: inline-block;
+}
+
+.osi:nth-child(1){
+	padding-right: 20px;
+}
+
+.osi:nth-child(2){
+	padding-right: 20px;
+}
+
+footer{
+	height: 60px;
+	width: 100%;
+	background-color: #ec715f;
+}
+
+.footer-a{
+	color: #fafafa;
+	line-height: 60px;
+	text-align: center;
+}
