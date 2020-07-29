@@ -15,9 +15,7 @@ header{
 	background-color: #ec715f;
 }
 
-.logo{
-	display: inline-block;
-}
+
 
 .top{
 	height: 70px;
@@ -26,11 +24,12 @@ header{
 
 .doraemon{
 	width: 150px;
+	float: left;
 }
 
 
 .menu{
-	display :inline-block;
+	float: left;
 	font-size: 16px;
 	color: #fafafa;
 	line-height: 70px;
@@ -81,6 +80,12 @@ header{
 	margin: 0 auto;
 }
 
+.background-space{
+	width: 920px;
+	background-color: #eceff1;
+	margin: 0 auto;
+}
+
 .area1{
 	width: 920px;
 }
@@ -120,7 +125,7 @@ header{
 
 .as123{
 	width: 920px;
-	margin: 0 auto;
+	background-color: #eceff1;
 }
 
 .box:nth-child(1){
@@ -160,6 +165,10 @@ header{
 
 .feature-content{
 	width: 100%;
+}
+
+.perpose{
+	width: 980px;
 	margin: 0 auto;
 }
 
@@ -302,12 +311,14 @@ header{
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
-	text-align: center;
+	padding-top: 15px;
+	text-align: center;<!-- コメントアウトを記述します。 -->
 }
 
 .picture-area{
 	float: left;
 	width: 512px;
+	text-align: center;
 }
 
 
@@ -349,13 +360,19 @@ header{
 }
 
 .contact-content{
+	width: 100%;
+}
+
+.back-space{
 	width: 800px;
+	margin: 0 auto;
 }
 
 .title-26{
 	text-align: center;
 	font-size: 32px;
 	padding-top: 90px;
+	width: 800px;
 	border-bottom: 3px solid #ec715f;
 }
 
@@ -391,12 +408,13 @@ header{
 }
 
 .mail-space{
-	display: inline-block;
+	float: left;
+	width: 400px;
+	padding-left: 130px;
 }
 
 .mail-title{
 	font-size: 20px;
-	width: 400px;
 	padding-bottom: 5px;
 }
 
@@ -410,22 +428,30 @@ header{
 }
 
 .sns-space{
-	display: inline-block;
+	float: left;  
 	width: 400px;
+	padding-left: 110px;
+
 }
 
 .osi{
 	font-size: 50px;
 	display: inline-block;
-}
-
-.osi:nth-child(1){
 	padding-right: 20px;
 }
 
-.osi:nth-child(2){
+.osj{
 	padding-right: 20px;
+	font-size: 50px;
+	display: inline-block;
 }
+
+.osk{
+	font-size: 50px;
+	display: inline-block
+}
+
+
 
 footer{
 	height: 60px;
