@@ -16,6 +16,14 @@ header{
 }
 
 
+.a-1{
+	display: none;
+}
+
+.br-d{
+	display: none;
+}
+
 
 .top{
 	height: 70px;
@@ -124,6 +132,7 @@ header{
 }
 
 .as123{
+	padding-top: 30px;
 	width: 920px;
 	background-color: #eceff1;
 }
@@ -205,6 +214,7 @@ header{
 }
 
 .abcde{
+	padding-top: 30px;
 	width: 980px;
 	margin: 0 auto;
 }
@@ -369,7 +379,6 @@ header{
 }
 
 .title-26{
-	text-align: center;
 	font-size: 32px;
 	padding-top: 90px;
 	width: 800px;
@@ -463,4 +472,334 @@ footer{
 	color: #fafafa;
 	line-height: 60px;
 	text-align: center;
+}
+
+.x{
+	display: none;
+}
+
+.ao{
+	display: none;
+}
+
+@media screen and (max-width:767px){
+ {  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+	height: 50px;
+	width: 90%;
+	background-color: #ec715f;
+}
+
+.top-background{
+	background-image: url(img/code.png);
+	background-size: cover;
+	background-position: bottom;
+	height: 650px;
+	width: 90%;
+}
+
+.top-title{
+	color: #fafafa;
+	font-size: 40px;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.mini-top-title{
+	color: #fafafa;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.portfolio-content{
+	width: 100%;
+	background-color: #eceff1;
+	margin: 0 auto;
+}
+
+.title-a{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+	border-bottom: 3px, solid #ec715f;
+}
+
+
+
+.a-1{
+	font-size: 16px;
+}
+
+.as123{
+	padding-top: 30px;
+	padding-bottom: 90px;
+	width: 90px;
+	background-color: #eceff1;
+}
+
+.box{
+	width: 300px;
+	height: 250px;
+	float: none;
+}
+
+.box:nth-child(1){
+	background-image: url(img/sketch.jpg);
+	margin-bottom: 10px;
+}
+
+.box:nth-child(2){
+	background-image: url(img/talk.jpg);
+	margin-bottom: 10px;
+}
+
+.box:nth-child(3){
+	background-image: url(img/webcamp-mother.png);
+}
+
+.box:nth-child(4){
+	display: none;
+}
+
+.box:nth-child(5){
+	display: none;
+}
+
+.box:nth-child(6){
+	display: none;
+}
+
+.background-space{
+	width: 90%;
+}
+
+.feature-content{
+	width: 100%;
+	padding-bottom: 90px;
+}
+
+.perpose{
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.first{
+	float: none;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.second{
+	float: none;
+	width: 100%;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.third{
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.abcde{
+	padding-top: 30px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.area2{
+	width: 100%;
+}
+
+.profile-content{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #eceff1;
+	padding-bottom: 90px;
+}
+
+.background-space{
+	width: 90%;
+}
+
+.area-s{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.title3{
+	font-size: 32px;
+	text-align: center;
+	color: #000000;
+	padding-top: 90px;
+	border-bottom: 3px solid #ec715f;
+}
+
+.g{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+.picture-area{
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.empty{
+	width: 90%;
+}
+
+.man{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	padding-top: 30px;
+	text-align: center;
+}
+
+
+
+
+.mynames{
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+.myname{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.name-sentance{
+	font-size: 16px;
+	color: #000000;
+	width: 90px;
+}
+
+.mai46{
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.br-display{
+	display: none;
+}
+
+.br-e{
+	display: none;
+}
+
+.a{
+	text-align: center;
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+.area2{
+	width: 100%;
+}
+
+.d{
+	text-align: center;
+	font-size: 16px;
+	padding-top: 30px;
+
+}
+
+.title-b{
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+	border-bottom: 3px solid #ec715f;
+	text-align: center;
+}
+
+.as123{
+	padding-top: 30px;
+	width: 90%;
+	background-color: #eceff1;
+}
+
+.name-sentence{
+	width: 100%;
+}
+
+.x{
+	display:none;
+}
+
+.ao{
+	display: none;
+}
+
+.contact-content{
+	width: 100%;
+}
+
+.back-space{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.mail-space{
+	float: none;
+	width: 400px;
+	text-align: center;
+}
+
+.mail-sns{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+
+.sns-space{
+	float: none;
+	width: 400px;
+}
+
+.mail-title{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.tel-title{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.title-26{
+	text-align: center;
+	font-size: 32px;
+	padding-top: 90px;
+	width: 90%;
+	border-bottom: 3px solid #ec715f;
+}
+
 }
