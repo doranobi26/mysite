@@ -379,6 +379,7 @@ header{
 }
 
 .title-26{
+	text-align: center;
 	font-size: 32px;
 	padding-top: 90px;
 	width: 800px;
@@ -543,6 +544,8 @@ header{
 }
 
 .as123{
+	margin: 0 auto;
+
 	padding-top: 30px;
 	padding-bottom: 90px;
 	width: 90px;
@@ -634,6 +637,7 @@ header{
 }
 
 .background-space{
+	margin: 0 auto;
 	width: 90%;
 }
 
@@ -656,6 +660,8 @@ header{
 	font-size: 16px;
 	color: #000000;
 }
+
+
 
 .picture-area{
 	float: none;
@@ -680,8 +686,8 @@ header{
 
 .mynames{
 	float: none;
-	width: 100%;
-	margin: 0 auto;
+	width: 95%;
+	
 }
 
 
@@ -746,6 +752,9 @@ header{
 }
 
 .name-sentence{
+	text-align: center;
+
+	
 	width: 100%;
 }
 
